@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.lambda.json",
+  "exclude": [],
+  "compilerOptions": {
+    "module": "ES2022",
+    "composite": true,
+    "lib": [],
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "types": ["node", "jest"]
+  },
+  "include": ["src/**/*", "schema/events/*.json"]
+}

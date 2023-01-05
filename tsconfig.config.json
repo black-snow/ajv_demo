@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": false,
+    "noEmit": true,
+    "composite": true,
+    "types": ["node"]
+  },
+  "include": [".eslintrc.cjs", "build.mjs", "jest.config.ts"]
+}
